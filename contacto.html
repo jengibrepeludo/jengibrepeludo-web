@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto · Jengibre Peludo</title>
+  <meta name="description" content="Contacto de Jengibre Peludo: Olesa de Bonesvalls y alrededores." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav">
+    <div class="brand">Jengibre Peludo</div>
+    <nav class="menu" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="historia.html">Historia</a>
+      <a href="libros.html">Libros</a>
+      <a href="contacto.html" aria-current="page">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Contacto</h1>
+    <p class="sub">Escríbeme con calma: zona, fechas y qué necesitas. Yo te respondo claro.</p>
+  </section>
+
+  <section class="section">
+    <div class="contact-box">
+      <div class="label">Email</div>
+      <div class="mono">jengibrepeludo@gmail.com</div>
+
+      <div class="label">Zona</div>
+      <div>Olesa de Bonesvalls, Begues, Vallirana, Vilafranca, Gavà y Castelldefels.</div>
+
+      <div class="label">Qué necesito para darte disponibilidad</div>
+      <ul class="list">
+        <li>Tu zona</li>
+        <li>Fechas y horario</li>
+        <li>Edad y tamaño del perro</li>
+        <li>Si hay miedos, reactividad o necesidades de salud</li>
+      </ul>
+
+      <p class="small">Si quieres, aquí podemos añadir tus redes (Instagram/Facebook) cuando me pases los enlaces.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div>© <span id="y"></span> Jengibre Peludo · Barcelona, España</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
