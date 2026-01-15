@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Libros · Jengibre Peludo</title>
+  <meta name="description" content="Libros de Laura Solana: bienestar, nutrición y mirada crítica sobre el perro." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav">
+    <div class="brand">Jengibre Peludo</div>
+    <nav class="menu" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="historia.html">Historia</a>
+      <a href="libros.html" aria-current="page">Libros</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Mis libros</h1>
+    <p class="sub">Textos que nacen de la observación, la biología y la experiencia real con perros.</p>
+  </section>
+
+  <section class="section">
+    <div class="grid">
+      <div class="book" style="grid-column: span 12;">
+        <div class="cover" aria-hidden="true"></div>
+        <div>
+          <div class="kicker">Nutrición canina</div>
+          <h2 style="margin:6px 0 6px;">¡Guau! Salud en tu despensa</h2>
+          <p class="small">Botiquín natural para tu perro. Ingredientes cotidianos con uso práctico y criterio.</p>
+          <p class="small">Enlace: <span class="mono">[pegar aquí tu enlace de Amazon]</span></p>
+        </div>
+      </div>
+
+      <div class="book" style="grid-column: span 12;">
+        <div class="cover" aria-hidden="true"></div>
+        <div>
+          <div class="kicker">Ensayo</div>
+          <h2 style="margin:6px 0 6px;">Coyote vs Perro</h2>
+          <p class="small">Una mirada crítica al perro moderno. Desplaza el “lobo” como espejo único y abre otro enfoque más funcional.</p>
+          <p class="small">Enlace: <span class="mono">[pegar aquí tu enlace de Amazon]</span></p>
+        </div>
+      </div>
+    </div>
+
+    <p class="small" style="margin-top:16px;">
+      ¿Quieres que en esta página se vean las portadas reales? Te digo cómo subirlas y enlazarlas en 2 minutos.
+    </p>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div>© <span id="y"></span> Jengibre Peludo</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
